@@ -1,0 +1,7 @@
+f = open("/Users/manish/Documents/Python/Python1/Chapter 9/hello.txt", "r")
+# print(f.read())
+# text = f.readline()
+# print(text)
+text = f.readlines()
+print(text)
+f.close()
